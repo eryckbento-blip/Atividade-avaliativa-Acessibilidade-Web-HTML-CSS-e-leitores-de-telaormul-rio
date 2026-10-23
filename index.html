@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Etapa 1: Cabeçalho da página -->
+    <header>
+        <h1>Cadastro de clientes</h1>
+    </header>
+
+    <!-- Etapa 2: Conteúdo principal -->
+    <main>
+        <img src="FaxadaLoja.jpg" alt="Imagem ilustrativa da loja">
+
+        <p>Informe seus dados para continuar.</p>
+
+        <!-- Etapa 3: Formulário de cadastro -->
+        <form>
+            <!-- Campo Nome -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <!-- Campo E-mail -->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Caixa de seleção dos termos de uso -->
+            <div class="termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos">Aceito os termos de uso</label>
+            </div>
+
+            <!-- Botão de envio do formulário -->
+            <button type="submit">Cadastrar cliente</button>
+        </form>
+    </main>
+
+</body>
+</html>
